@@ -1,0 +1,55 @@
+body {margin: 0;
+	background-color:#2C8182;
+	color:white;
+	font-weight:lighter;}
+
+h1{
+	color:white;
+	font-size:40px;
+	width:auto;
+	height:120px;
+	background-color:#FCCC3A;
+	margin:0;
+	text-align:center;}
+	
+h4{
+	font-family:'나눔고딕';
+}
+h5{
+	font-family:'sans-serif';
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF5E3E;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: #F29228;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+img{
+	width:100%;
+	display:block;
+	height:auto;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  
+ ul.topnav li {float: none; /*모바일 화면에서 메뉴 수정 */
+  }
